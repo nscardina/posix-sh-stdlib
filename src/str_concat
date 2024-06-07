@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Concatenates an arbitrary number of strings, and echoes 
+# the concatenated string.
+
+IFS="" 
+echo "$*"
+
+# echo "\"\$*\"; IFS=\"${IFS}\""
+
+# }"

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Echoes the length of the first parameter.
+
+echo "${#1}"

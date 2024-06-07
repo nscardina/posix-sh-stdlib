@@ -1,0 +1,13 @@
+#!/bin/awk -f
+
+# Determines the first index of the second argument in the 
+# first argument.
+
+BEGIN {
+    if (ARGC != 3) {
+        print ARGC
+        exit 1
+    }
+
+    print index(ARGV[1], ARGV[2])
+}
