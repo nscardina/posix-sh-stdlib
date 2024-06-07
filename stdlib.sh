@@ -10,6 +10,13 @@ std_strcat() {
 		shift
 	done;
 	echo "${str}"
-	
+
+}
+
+# Echoes the length of the first parameter.
+std_strlen() {
+
+	echo "${#1}"
+
 }
 
